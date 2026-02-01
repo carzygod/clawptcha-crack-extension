@@ -1,0 +1,30 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# npm / node
+node_modules/
+
+# Build/output
+dist/
+build/
+
+# Temporary files
+tmp/
+*.tmp
+
+# Secrets
+.env
