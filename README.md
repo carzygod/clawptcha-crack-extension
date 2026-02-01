@@ -1,5 +1,7 @@
-## 项目概述
+## 项目概述[Build by codex]
 这个 Chrome 扩展通过在 `https://clawptcha.com` 的挑战页面上注入内容脚本，捕获官方 “Impossible Challenges” 弹窗，并结合本地解题器 + LLM 调用的方式，尝试自动完成验证流程，再交由验证器获得通过结果。整个流程包括：后台保存 OpenAI 配置、内容脚本观察挑战并触发直接解决或让 agent 求助、以及一个 popup UI 用于设置参数和开关“是否自动通过”。
+
+<img width="682" height="814" alt="image" src="https://github.com/user-attachments/assets/184ff151-2f23-482e-a65f-3bfbc32547ef" />
 
 ## 支持的挑战与我的理解
 - **Reaction Time（点击反应）**：脚本会先点击“Start Challenge”，然后监听首次出现的 “CLICK NOW” 目标按钮，在限定时间内模拟点击，模拟 bot 精准速率。
